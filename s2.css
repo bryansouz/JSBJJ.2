@@ -1,0 +1,80 @@
+
+.secao2 {
+    background-color: #0c0b10;
+    margin: 0;
+    margin-top: 10%;
+    height: auto;
+    color: #a1a1a1;
+    display: grid;
+    grid-column-gap: 20px;
+    
+    
+  }
+  
+  .secao2 .img-s2 {
+    
+      
+    
+  }
+  
+  @media only screen and (min-width: 768px) {
+    .secao2 {
+      width: 100vw;
+
+      padding: 5%;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-column-gap: 20px;
+    }
+  }
+  
+  @media only screen and (max-width: 867px) {
+    .secao2 {
+      width: 100vw;
+      height: 100vh;
+      padding-top: 10%;
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-column-gap: 20px;
+    }
+    .secao2 img{
+      max-width: 80%;
+     margin-left: 10%;
+    }
+  }
+
+  @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Labrada:wght@340&display=swap');
+.coluna-text {
+  width: 100%;
+  height: auto;
+    color: #939393;
+    height: auto;
+    background-color: #0c0b10; 
+    margin:auto;
+    padding: 5%;
+  
+  }
+  .secao2 img{
+    width: 80%;
+    
+  }
+  .quemSomos h1{
+    font-family: 'Labrada', cursive;
+    font-weight: 600;
+    text-align: right;
+    margin: 5%;
+    font-size: 3em;
+  }
+  .quemSomos h2{
+    font-family: 'Labrada', cursive;
+    font-weight: 600;
+    text-align: right;
+    font-size: 1.5em;
+  }
+  .quemSomos p {
+    font-family: 'Labrada', serif;
+    
+    font-size: 1.2em;
+    padding-bottom: 10px;
+  }
