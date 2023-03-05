@@ -1,6 +1,5 @@
 
 .secao2 {
- 
     background-color: #0c0b10;
     margin: 0;
     margin-top: 10%;
@@ -8,8 +7,6 @@
     color: #a1a1a1;
     display: grid;
     grid-column-gap: 20px;
-    
-    
   }
   
   .secao2 .img-s2 {
