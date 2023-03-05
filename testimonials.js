@@ -1,7 +1,7 @@
 const tmonials = [
     {
-      name: "John Doe",
-      text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse commodo ultrices gravida.",
+      name: "— Rob kelly - Student",
+      text: "“Started three months ago after a year of kick boxing. It’s a different beast, quite technical and great for fitness, strength and self defense. Top class instructors and a cool crew all round. Highly recommended”",
       mov: "Your only limit is you "
     },
     {

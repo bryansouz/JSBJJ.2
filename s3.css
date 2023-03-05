@@ -30,27 +30,27 @@
     font-weight: 700;
     animation: pulse-black 2s infinite;
   }
+    
+  .s3-h1 {
+    margin-bottom: 1rem;
+    font-size: 3.5rem;
+    line-height: 4rem;
+    font-weight: 600;
+    word-spacing: 12%;
+  }
+  .s3-h2{
+    font-size: 2rem;
+    color: var(--red);
+    margin-bottom: 1rem;
+  }
+  .s3-p {
+    font-family: 'Labrada', serif;
+    font-size: 1.2em;
+    color: #939393;
   
-.s3-h1 {
-  margin-bottom: 1rem;
-  font-size: 3.5rem;
-  line-height: 4rem;
-  font-weight: 600;
-  word-spacing: 12%;
-}
-.s3-h2{
-  font-size: 2rem;
-  color: var(--red);
-  margin-bottom: 1rem;
-}
-.s3-p {
-  font-family: 'Labrada', serif;
-  font-size: 1.2em;
-  color: #939393;
- 
-  padding-bottom: 15%;
-  
-}
+    padding-bottom: 15%;
+    
+  }
 
   @media only screen and (min-width: 768px) {
     .secao3 {
