@@ -32,11 +32,10 @@
   @media only screen and (min-width: 1024px) {
     main{
       padding-top: 5%;
-        grid-template-rows: auto auto auto auto auto auto auto auto;
+        grid-template-rows: auto;
       }
       
   }
-
   @media only screen and (min-width: 767px) and (max-width: 1024px) {
     main {
       padding-top: 10%;
@@ -47,11 +46,10 @@
     }
 
   }
-
   @media only screen and (max-width: 767px) {
     main {
     padding-top: 10%;
-    grid-template-rows: 800px 1200px 1000px 1600px 80vh 1fr auto;
+    grid-template-rows: 800px 1200px 1200px 1600px 800px 1fr auto;
   }
   .secao1 .img-s1{
     padding-top: 5%; 
@@ -191,7 +189,6 @@
 
 /* -----SECAO1-------------------------------------------------------------------------------------------------------------------- */
 .secao1 {
-   border: 1px solid rebeccapurple;
   margin: 0 ;
   padding: 5%;
   background-image: url("img/teahub.io-bjj-wallpaper-935085.jpg");
@@ -243,7 +240,6 @@
   color: var(--dark);
   border-radius: 10px;
   font-weight: 700;
-  
   transform: scale(1);
   animation: pulse-black 3s infinite;
 }

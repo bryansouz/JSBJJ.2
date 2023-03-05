@@ -28,11 +28,11 @@
   <nav class="navigation">
     <a href="#" class="logo"><span>JS</span>B<span>JJ</span></a>
     <ul class="nav-menu">
-      <li class="nav-item"><a href="#">Welcome</a></li>
-      <li class="nav-item"><a href="#">Contact</a></li>
-      <li class="nav-item"><a href="#">Kids Class</a></li>
-      <li class="nav-item"><a href="#">NEWS</a></li>
-      <li class="nav-item"><a href="#">Member portal</a></li>
+      <li class="nav-item"><a href="#home">Welcome</a></li>
+      <li class="nav-item"><a href="#out-roots">Our roots</a></li>
+      <li class="nav-item"><a href="#about">About Us</a></li>
+      <li class="nav-item"><a href="#courses">COURSES </a></li>
+      <li class="nav-item"><a target="_blank" href="https://calendly.com/info-jsbjj/jsbjj-free-class?back=1&month=2023-03">Contact</a></li>
     </ul>
 
     <div class="menu">
@@ -44,13 +44,13 @@
 
 
   <main>
-    <section class="secao1">
+    <section id="home" class="secao1">
 
       <div class="texto-s1">
         <h4 class="text-h4">JS Brazilian Jiu Jitsu Academy</h4>
         <h1 class="text-h1">Jiu Jitsu tailored for you.</h1>
         <p>We provide jiu jitsu of excellence for all ages and levels.</p>
-        <a href="#" class="home-btn">REGISTER FOR A FREE CLASS</a>
+        <a href="https://calendly.com/info-jsbjj/jsbjj-free-class?month=2023-03" target="_blank" class="home-btn">REGISTER FOR A FREE CLASS</a>
       </div>
 
       <div class="img-s1">
@@ -60,7 +60,7 @@
 
     </section>
 
-    <section class="secao2 ">
+    <section id="out-roots" class="secao2 ">
       <div class="coluna-image">
 
         <img src="img/founder.png" alt="Founder">
@@ -96,7 +96,7 @@
 
     </section>
 
-    <section class="secao3">
+    <section id="about" class="secao3">
       <div class="texto-s3">
       
         <h2  class="s3-h2">About Us</h2>
@@ -108,15 +108,15 @@
         <div class="icon-box">
           <div class="icon"><i class="fas fa-search-location"></i> </div>
           <div class="text">
-            <h2 class="title">Dojo Location</h2>
-            <p class="description">Jl. Saitama Ichiban No.43, Nagoya</p>
+            <h2 class="title">Location</h2>
+            <p class="description">192 Parnell Street, Dublin 1   </p>
           </div>
         </div>
         <div class="icon-box">
-          <div class="icon"> <i aria-hidden="true" class="fas fa-phone-volume"></i></div>
+          <div class="icon"> <i aria-hidden="true" class="fab fa-instagram"></i></div>
           <div class="text">
-            <h2 class="title">Contact Number</h2>
-            <p class="description">(8)098-1234-543</p>
+            <h2 class="title">Instagram</h2>
+            <p class="description">@jsbjj_hq</p>
           </div>
         </div>
         
@@ -124,13 +124,13 @@
           <div class="icon"> <i aria-hidden="true" class="far fa-clock"></i></div>
           <div class="text">
             <h2 class="title">Opening Time</h2>
-            <p class="description">08.00 AM - 04.00 PM</p>
+            <p class="description">OPENS AT 6:45AM MON-FRI, SAT 9AM</p>
           </div>
         </div>
     </div>
     </section>
 
-    <section class="secao4">
+    <section id="courses" class="secao4">
       <h2 class="s4-h2">Our Program</h2>
       <h1 class="s4-h1">COURSES DETAILS</h1>
         <p class="s4-p">Our beginner jiu-jitsu program offers basic self-defense skills for all ages and genders, promoting physical and mental benefits with zero tolerance for bullying or racism. The 2-month course provides a strong foundation for future classes, with provided training equipment and a tailored approach to each student's development.</p>
@@ -191,13 +191,13 @@
   <div class="modal-content">
     <span id="close-modal">&times;</span>
           <h2>Timetable</h2>
-          <iframe id="my-iframe" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vR6hBpwM2hWfrKAKHjE5rShDZVYhdAydLen7lcnsFBNhYRUh2Wxdz3mRqvrcSNaCpAreWlQrCX_mcMb/pubhtml?widget=true&amp;headers=false"></iframe>
-            <script>
-              setInterval(function() {
-                var iframe = document.getElementById("my-iframe");
-                iframe.src = iframe.src;
-              }, 10000); // atualiza a cada 10 segundos
-            </script> 
+          <iframe id="my-iframe"  src="https://docs.google.com/spreadsheets/d/1rg05nwDy9Y8lXpj0BxAdpFKwvvA3b4JUygEy0MBtXOU/edit?usp=sharing"></iframe>
+          <script>
+              var iframe = document.getElementById('my-iframe');
+              iframe.addEventListener('load', function() {
+                iframe.contentDocument.documentElement.requestFullscreen();
+              });
+          </script>
         </div>
       </div>
       
@@ -250,20 +250,20 @@
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2381.578143181234!2d-6.265738!3d53.3508074!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48670e817ef6a689%3A0x35e427bd9e309476!2s192%20Parnell%20St%2C%20Rotunda%2C%20Dublin%2C%20D01%20XW18%2C%20Irlanda!5e0!3m2!1spt-BR!2sbr!4v1677425567598!5m2!1spt-BR!2sbr" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>       
       </div>
       <div class="footer-contact">
-        <h3>Entre em contato</h3>
-        <p><i class="fa fa-map-marker"></i>1010 Avenue, sw 54321, chandigarh</p>
-        <p><i class="fa fa-phone"></i>9876543210</p>
+        <h3>Get in touch</h3>
+        <p><i class="fa fa-map-marker"></i>Address: 192 Parnell Street, Dublin 1</p>
+        <p><i class="fa fa-phone"></i>Instagram: @jsbjj_hq</p>
         <p><i class="fa fa-envelope"></i>mail@info.com</p>
       </div>
      
   
       <div class="footer-links">
-        <h3>Links úteis</h3>
+        <h3>Useful links</h3>
         <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Sobre nós</a></li>
-          <li><a href="#">Serviços</a></li>
-          <li><a href="#">Contato</a></li>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#courses">Courses</a></li>
+          <li><a href="https://calendly.com/info-jsbjj/jsbjj-free-class?month=2023-03">Contact</a></li>
         </ul>
       </div>
     

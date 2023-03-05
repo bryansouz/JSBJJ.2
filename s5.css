@@ -15,6 +15,12 @@
     flex-basis: calc(33.33% - 20px);
     text-align: center;
     background-color: #c7c7c7;;
+    border-radius: 10px;
+  }
+  @media only screen and (min-width: 700px) {
+    .testimonials-container {
+        min-height: 80vh  ;
+    }
   }
   
   .testimonial.active {
@@ -29,12 +35,13 @@
   .prev-button,
   .next-button {
     background-color: #fff;
+
     border: none;
     color: #000;
     font-size: 24px;
     font-weight: bold;
-    padding: 0 10px;
- 
+    padding: 10px;
+    border-radius: 10px;
     cursor: pointer;
   }
   
