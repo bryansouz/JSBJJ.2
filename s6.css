@@ -2,6 +2,7 @@
     background-color: #0c0b10;
     display: grid;
     grid-template-columns: 1fr 1fr;
+    color: #c7c7c7;
 }
 .secao6 img{
     max-width: 90%;
@@ -40,7 +41,7 @@
   .secao6 .header h2,.grid  h2  {
     font-size: 24px;
     margin-top: 0;
-    background-color: #c7c7c7;;
+    background-color: #0c0b10;;
   }
   
   .secao6 .grid {
@@ -50,12 +51,12 @@
   }
   
   .secao6 .item {
-    border: 2px solid #c7c7c7;
+    border: 1px solid #c7c7c7;
+
     border-radius: 20px;
     padding: 5%;
     position: relative;
     overflow: hidden;
-    animation: pulse 1s infinite;
   }
   .secao6 .header p,  .secao6 .grid p{
     color: #c7c7c7;
