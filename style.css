@@ -203,6 +203,7 @@
   line-height: 4rem;
   font-weight: 600;
   word-spacing: 12%;
+  animation: fade-in 4s ;
 }
 .texto-s1 {
   max-width: 37rem;
@@ -247,7 +248,7 @@
 
 @keyframes pulse-black {
   0% {
-    color: var(--red);
+    color: var(--white);
     transform: scale(0.95);
     box-shadow: 0 0 0 0 #0c0c0c;
     background-color:var(--dark);
@@ -261,13 +262,58 @@
   }
   
   100% {
-    color: var(--red);
+    color: var(--white);
     transform: scale(0.95);
     box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.15);
     background-color:var(--dark);
   }
 }
+@keyframes girar {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+@keyframes pulsar {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+@keyframes drop-in {
+  from {
+    transform:
+      rotate(-30deg) translateY(-100%);
+    opacity: 0;
+  }
+  to {
+    transform:
+      rotate(0deg) translateY(0%);
+    opacity: 1;
+  }
+}
+@keyframes slide-in {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(0%);
+  }
+}
 
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+.img-s1 {
+  animation: fadeIn 5s;}
 
 .home-img img{
   width: 100%;
@@ -285,19 +331,46 @@
 
 @media only screen and (max-width: 767px) {
   .secao1 {
-    background-color: #c7c7c7;
-    background-position: top right ;
-    color: #c7c7c7;
-    padding-top: 15%;
-    height: 150vh;
-    display: block;
+    background-image: none;
+    background-color: #c0c0c0;
+    color: #0c0c0c;
+    padding-top: 0;
+    height: auto;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
   }
-  .secao1{
-   
+  .texto-s1{
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .texto-s1 .text-h4{
+    visibility: hidden;;
+  }
+  .img-s1{
+    margin-bottom: 0;
+  }
+  .texto-s1 .text-h1 {
+    font-size: 3.5rem;
+    font-weight: 900;
+    margin-bottom: 2rem;
+    line-height: 4rem;
+    color: white;
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.5);
   }
   .secao1 p{
     display: none;
    
+  }
+  .secao1 img {
+    padding-top: 10%;
+  }
+  .home-btn {
+    text-align: center;
+    padding: 15px 45px;
+    margin: 5%;
+    font-size: 20px;
   }
 }
 /* -----SECAO1-------------------------------------------------------------------------------------------------------------------- */

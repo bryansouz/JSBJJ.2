@@ -9,11 +9,6 @@
     grid-column-gap: 20px;
   }
   
-  .secao2 .img-s2 {
-    
-      
-    
-  }
   
   @media only screen and (min-width: 768px) {
     .secao2 {
@@ -60,14 +55,14 @@
   .quemSomos h1{
     font-family: 'Labrada', cursive;
     font-weight: 600;
-    text-align: right;
+    text-align: center;
     margin: 5%;
     font-size: 3em;
   }
   .quemSomos h2{
     font-family: 'Labrada', cursive;
     font-weight: 600;
-    text-align: right;
+    text-align: left;
     font-size: 1.5em;
   }
   .quemSomos p {
