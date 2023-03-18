@@ -11,7 +11,7 @@
 }
 .s6-img{
   border: 1px solid #c7c7c7;
-    border-radius: 20px;
+  border-radius: 20px;
 }
 .secao6 .container {
     max-width: 1200px;
@@ -20,10 +20,10 @@
   }
   .secao6 .header .s6-h1{
     font-size: 3.5rem;
-  line-height: 4rem;
-  font-weight: 600;
-  word-spacing: 12%;
-  text-align: center;
+    line-height: 4rem;
+    font-weight: 600;
+    word-spacing: 12%;
+    text-align: center;
   }
   .secao6  .header {
     text-align: center;
@@ -52,7 +52,6 @@
   
   .secao6 .item {
     border: 1px solid #c7c7c7;
-
     border-radius: 20px;
     padding: 5%;
     position: relative;
@@ -74,6 +73,11 @@
   }
   
   @media screen and (max-width: 768px) {
+    .secao6 img{
+      max-width: 300px;
+      
+      height: 450px;
+  }
     .secao6{
         grid-template-columns: 1fr;
     }
