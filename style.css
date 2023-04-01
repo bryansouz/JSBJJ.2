@@ -49,7 +49,8 @@
   @media only screen and (max-width: 767px) {
     main {
     padding-top: 10%;
-    grid-template-rows: 800px 1200px 1200px 1600px 800px 1fr auto;
+    grid-template-rows: 800px 1200px 1200px 2000px auto auto auto;
+    
   }
   .secao1 .img-s1{
     padding-top: 5%; 
@@ -331,8 +332,10 @@
 
 @media only screen and (max-width: 767px) {
   .secao1 {
-    background-image: none;
-    background-color: #c0c0c0;
+    background-image: url('./img/w.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
     color: #0c0c0c;
     padding-top: 0;
     height: auto;
@@ -365,6 +368,12 @@
   }
   .secao1 img {
     padding-top: 10%;
+    background-color: #ffffffa2;
+    padding: 7%;
+    width: 100%;
+    border-radius: 50%;
+    box-shadow:  2px 2px 3px rgba(0,0,0,0.5);;
+
   }
   .home-btn {
     text-align: center;

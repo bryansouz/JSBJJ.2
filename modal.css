@@ -52,6 +52,7 @@ iframe{
 }  
 
 #open-modal {
+    height: 80px;
     background-color: #c52929; /* cor de fundo */
     color: white; /* cor do texto */
     border-radius: 5px; /* arredondamento das bordas */
